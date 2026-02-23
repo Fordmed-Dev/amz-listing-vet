@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(python -c:*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(\"c:/Users/RaianNair/Desktop/NDC/venv/Scripts/python.exe\" -c:*)",
+      "Bash(\"c:/Users/RaianNair/Desktop/NDC/venv/Scripts/python.exe\" -c \"import openai; print\\(''openai'', openai.__version__\\)\")",
+      "Bash(\"c:/Users/RaianNair/Desktop/NDC/venv/Scripts/python.exe\" -m pip install openai)",
+      "Bash(grep:*)"
+    ]
+  }
+}
