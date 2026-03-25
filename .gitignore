@@ -1,9 +1,9 @@
 # Created by venv; see https://docs.python.org/3/library/venv.html
 venv
-gudid
 .env
-catalog.xlsx
-match.db
-matches.xlsx
-results.xslx
+*.db
+results.xlsx
 keepa.xlsx
+catalog.xlsx
+__pycache__/
+*.pyc

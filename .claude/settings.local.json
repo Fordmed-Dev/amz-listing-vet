@@ -8,7 +8,15 @@
       "Bash(\"c:/Users/RaianNair/Desktop/NDC/venv/Scripts/python.exe\" -c:*)",
       "Bash(\"c:/Users/RaianNair/Desktop/NDC/venv/Scripts/python.exe\" -c \"import openai; print\\(''openai'', openai.__version__\\)\")",
       "Bash(\"c:/Users/RaianNair/Desktop/NDC/venv/Scripts/python.exe\" -m pip install openai)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(timeout 60 venv/Scripts/python.exe -c \":*)",
+      "Bash(venv/Scripts/python.exe -c \":*)",
+      "Bash(python3 -c \"import pandas as pd; xl = pd.ExcelFile\\(''c:/Users/RaianNair/Desktop/NDC/data/cah-test/output/results.xlsx''\\); print\\(xl.sheet_names\\)\")",
+      "Bash(py -c \"import pandas as pd; xl = pd.ExcelFile\\(''c:/Users/RaianNair/Desktop/NDC/data/cah-test/output/results.xlsx''\\); print\\(xl.sheet_names\\)\")",
+      "Bash(py -c \":*)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\RaianNair\\Desktop\\NDC\\data\\NDC"
     ]
   }
 }
